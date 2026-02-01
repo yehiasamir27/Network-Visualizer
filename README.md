@@ -42,7 +42,7 @@ It flags **risky exposure** that is commonly abused in real attacks (example: SM
 
 ## Run locally
 
-## Notes - Scan only networks you own or have permission to test. 
+## Note - Scan only networks you own or have permission to test. 
 
 ### 1) Install Nmap (Windows)
 Make sure Nmap exists here:
