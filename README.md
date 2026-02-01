@@ -14,12 +14,14 @@ Network scanning results are usually hard to review fast:
 
 This project solves that by mapping **IP → open ports visually**, and adding a **short exposure summary per host** so risky systems stand out faster.
 
-## Demo
+## UI
 
 <img width="2527" height="1167" alt="Screenshot 2026-02-01 185726" src="https://github.com/user-attachments/assets/f8d87a0c-cdf6-4caa-9e74-fc58c3b1b5ad" />
 
 <img width="2362" height="421" alt="image" src="https://github.com/user-attachments/assets/4228f915-a53b-455e-90ae-bb44ac257901" />
 
+<img width="1716" height="1132" alt="Screenshot 2026-02-01 191306" src="https://github.com/user-attachments/assets/1f6b011e-fb9f-4dde-b747-9df10f3b478b" />
+Visual mapping of hosts ↔ open ports with exposure scoring for quick triage. (Private/internal IPs are redacted.)
 
 ## Why this tool is strong
 - **Topology View (IP ↔ Port Mapping):** Every host is linked to its exposed ports visually, so risky systems stand out fast.
