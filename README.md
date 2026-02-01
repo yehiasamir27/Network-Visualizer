@@ -1,5 +1,4 @@
-
-# Network Visualizer — Attack Surface Mapper 🛰️
+# Network Visualizer — Attack Surface Mapper 
 
 A **blue-team style network visibility tool** that turns raw Nmap discovery into a **hacker-style web dashboard** and a **topology graph** that links **IPs ↔ open ports** in one view.
 
@@ -41,6 +40,8 @@ It flags **risky exposure** that is commonly abused in real attacks (example: SM
 
 ## Run locally
 
+## Notes - Scan only networks you own or have permission to test. - Risk levels are based on exposed services, not malware verdicts. (Add Network Visualizer project + README) add what proplem we solved with this project
+
 ### 1) Install Nmap (Windows)
 Make sure Nmap exists here:
 `C:\Program Files (x86)\Nmap\nmap.exe`
@@ -50,4 +51,6 @@ Make sure Nmap exists here:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+
+
 
