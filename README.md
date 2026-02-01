@@ -42,7 +42,7 @@ It flags **risky exposure** that is commonly abused in real attacks (example: SM
 
 ## Run locally
 
-## Notes - Scan only networks you own or have permission to test. - Risk levels are based on exposed services, not malware verdicts. (Add Network Visualizer project + README) add what proplem we solved with this project
+## Notes - Scan only networks you own or have permission to test. 
 
 ### 1) Install Nmap (Windows)
 Make sure Nmap exists here:
