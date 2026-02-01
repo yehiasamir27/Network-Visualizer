@@ -1,0 +1,15 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Output / generated files
+static/network.png
+static/index.html
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/

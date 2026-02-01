@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scan Report</title>
+  <style>
+    body {
+      margin:0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: #05070a;
+      color: #d8ffe9;
+      padding: 16px;
+    }
+    .card {
+      background: rgba(11,17,22,0.85);
+      border: 1px solid rgba(0,255,136,0.18);
+      border-radius: 14px;
+      padding: 14px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 { margin: 0 0 10px 0; font-size: 18px; }
+    .muted { color: rgba(216,255,233,0.65); }
+    table { width:100%; border-collapse: collapse; margin-top: 10px; font-size: 12px; }
+    th, td { padding: 10px; border-bottom: 1px solid rgba(0,255,136,0.10); vertical-align: top; }
+    th { text-align:left; color: #00ff88; }
+    code {
+      background: rgba(0,255,136,0.10);
+      color: #00ff88;
+      border: 1px solid rgba(0,255,136,0.12);
+      padding: 2px 6px;
+      border-radius: 8px;
+    }
+    a { color: #00b3ff; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Network Scan Report</h1>
+    <div class="muted">Status: <b>done</b> • Last Scan: <b>2026-02-01 18:26:26</b> • Hosts: <b>6</b> • Open Ports: <b>7</b></div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>IP</th>
+          <th>Risk</th>
+          <th>Score</th>
+          <th>Top Exposures</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td><code>192.168.1.1</code></td>
+          <td>LOW</td>
+          <td><code>3</code></td>
+          <td class="muted">TCP:53 (DNS), TCP:443 (HTTPS)</td>
+          <td class="muted">Only low-risk services found (based on open ports).</td>
+        </tr>
+        
+
+        <tr>
+          <td><code>192.168.1.10</code></td>
+          <td>LOW</td>
+          <td><code>0</code></td>
+          <td class="muted">None</td>
+          <td class="muted">No open ports detected in scan range.</td>
+        </tr>
+        
+
+        <tr>
+          <td><code>192.168.1.11</code></td>
+          <td>HIGH</td>
+          <td><code>15</code></td>
+          <td class="muted">TCP:445 (SMB), TCP:135 (MS RPC), TCP:139 (NetBIOS)</td>
+          <td class="muted">Multiple risky services exposed. Confirm this host is expected.</td>
+        </tr>
+        
+
+        <tr>
+          <td><code>192.168.1.4</code></td>
+          <td>LOW</td>
+          <td><code>0</code></td>
+          <td class="muted">None</td>
+          <td class="muted">No open ports detected in scan range.</td>
+        </tr>
+        
+
+        <tr>
+          <td><code>192.168.1.6</code></td>
+          <td>LOW</td>
+          <td><code>0</code></td>
+          <td class="muted">None</td>
+          <td class="muted">No open ports detected in scan range.</td>
+        </tr>
+        
+
+        <tr>
+          <td><code>192.168.1.8</code></td>
+          <td>LOW</td>
+          <td><code>0</code></td>
+          <td class="muted">None</td>
+          <td class="muted">No open ports detected in scan range.</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    <p class="muted" style="margin-top:12px;">
+      Back to <a href="/">Dashboard</a>
+    </p>
+  </div>
+</body>
+</html>
